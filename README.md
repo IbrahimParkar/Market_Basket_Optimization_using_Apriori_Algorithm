@@ -21,11 +21,11 @@ Finally, we display the association rules with a lift value greater than or equa
 # Understanding the Results
 When analyzing the results of the association rules, several measures are considered:
 
-Antecedent support: This measure indicates the frequency of the antecedent item in all the transactions.
-Consequent support: This measure indicates the frequency of the consequent item in all the transactions.
-Support: This measure indicates the frequency of the itemset in all the transactions.
-Confidence: This measure defines the likelihood of finding the consequent item in the cart given that the cart already contains the antecedents.
-Lift: This measure defines the likelihood of finding the consequent item in the cart given that the cart already contains the antecedent, while considering the popularity of the consequent item.
-Leverage: Leverage measures the difference between the occurrence of X and Y appearing together in the dataset and what would be expected if X and Y were statistically independent.
-Conviction: This parameter is not much useful in most situations and can be ignored.
+1. Antecedent support: This measure indicates the frequency of the antecedent item in all the transactions.
+2. Consequent support: This measure indicates the frequency of the consequent item in all the transactions.
+3. Support: This measure indicates the frequency of the itemset in all the transactions.
+4. Confidence: This measure defines the likelihood of finding the consequent item in the cart given that the cart already contains the antecedents.
+5. Lift: This measure defines the likelihood of finding the consequent item in the cart given that the cart already contains the antecedent, while considering the popularity of the consequent item.
+6. Leverage: Leverage measures the difference between the occurrence of X and Y appearing together in the dataset and what would be expected if X and Y were statistically independent.
+7. Conviction: This parameter is not much useful in most situations and can be ignored.
 These measures help us identify significant associations between items and understand customer behavior, which can be valuable for optimizing market baskets and improving business strategies.
